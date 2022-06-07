@@ -16,7 +16,14 @@
         <slf4j-log4j12.version>1.7.36</slf4j-log4j12.version>
     </properties>
 
-    <dependencies>
+    	<dependencies>
+    		
+    	<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-remote-driver</artifactId>
